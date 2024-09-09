@@ -22,3 +22,4 @@ header=browser.find_element(By.CLASS_NAME, 'ekinox-title')
 assert 'RELEASES GRID – BOXED'== header.text
 time.sleep(3)
 browser.get("goodle")
+browser.find_element(By.NAME, "")
